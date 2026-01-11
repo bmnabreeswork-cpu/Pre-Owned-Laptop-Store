@@ -68,8 +68,8 @@ const adminProductList = document.getElementById("adminProductList");
 adminForm.addEventListener("submit", (e) => {
   e.preventDefault();
   if (
-    document.getElementById("adminUser").value === "admin" &&
-    document.getElementById("adminPass").value === "admin"
+    document.getElementById("adminUser").value === "bm" &&
+    document.getElementById("adminPass").value === "bm"
   ) {
     productAdmin.classList.remove("hidden");
     adminForm.classList.add("hidden");
